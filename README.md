@@ -2,8 +2,6 @@
 
 This project predicts whether a passenger was transported to another dimension during the mysterious Spaceship Titanic incident using machine learning.
 
-It was built as part of the Kaggle “Spaceship Titanic” competition and uses **XGBoost Classifier**, a powerful ML model for structured/tabular data.
-
 
 
 ## Files Used
@@ -18,9 +16,23 @@ It was built as part of the Kaggle “Spaceship Titanic” competition and uses 
 	2.	Extracts features from the Cabin, PassengerId, and spending columns
 	3.	Fills missing values
 	4.	Label-encodes categorical features
-	5.	Trains an XGBoost Classifier
-	6.	Evaluates model using validation accuracy
-	7.	Outputs a submission.csv file ready to upload to Kaggle
+	5.	Model training and evaluation (XGBoost & LightGBM)
+ 	6.	Final predictions on the test set
+
+
+## ML MODELS USED:
+### 1. XGBoost Classifier
+- Initial model with decent performance  
+- Validation Accuracy: **82.87%**
+
+### 2. LightGBM Classifier 
+- Final chosen model for test prediction
+- Validation Accuracy: **84.02%**
+- Trains faster and handles categorical features efficiently
+
+> **We used LightGBM for the final submission because it outperformed XGBoost in both accuracy and speed.**
+
+
 
 ## Feature Engineering 
 To improve model performance and help it understand hidden patterns in the passenger data, several new features were created from existing columns.
