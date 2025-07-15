@@ -2,7 +2,7 @@
 
 This project predicts whether a passenger was transported to another dimension during the mysterious Spaceship Titanic incident using machine learning.
 
-It was built as part of the Kaggle “Spaceship Titanic” competition and uses XGBoost, a powerful ML model for structured/tabular data.
+It was built as part of the Kaggle “Spaceship Titanic” competition and uses **XGBoost Classifier**, a powerful ML model for structured/tabular data.
 
 
 
