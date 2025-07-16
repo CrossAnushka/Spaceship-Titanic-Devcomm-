@@ -4,13 +4,6 @@ This project predicts whether a passenger was transported to another dimension d
 
 
 
-## Files Used
-	•	train.csv – Contains passenger data + the target column Transported
-	•	test.csv – Passenger data for which we need to predict Transported
-	•	sample_submission.csv – Format required for final submission to Kaggle
-
-
-
 ## What the Model Does
 	1.	Cleans the data
 	2.	Extracts features from the Cabin, PassengerId, and spending columns
